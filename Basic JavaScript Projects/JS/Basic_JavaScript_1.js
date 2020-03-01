@@ -22,4 +22,8 @@ document.write(B);
 
 document.write(family);
 
-document.write(3 + 3);
+document.write(3 + 3 );
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date()
+}
