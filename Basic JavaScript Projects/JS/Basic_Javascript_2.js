@@ -9,7 +9,7 @@ var A = A.fontcolor("orange")
 
 document.write(B);
 
-document.write(A)
+document.write(A);
 
 function myFunction() {
     var sentence = "I am learning";
@@ -20,3 +20,5 @@ function myFunction() {
 function My_First_Function() {
     document.getElementById("time").innerHTML = Date()
 }
+
+
