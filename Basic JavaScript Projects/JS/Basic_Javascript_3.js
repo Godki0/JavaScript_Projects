@@ -55,3 +55,14 @@ function square_root() {
     document.getElementById("square").innerHTML = Math.sqrt(324);
 }
 
+function my_Dictionary() {
+    var Animal = {
+        Species: "Dog" ,
+        Color: "Blue",
+        Breed: "Pitbull",
+        Age: 3,
+        Sound: "Howl!"
+    } ;
+    document.getElementById("Dictionary").innerHTML = Animal.Sound;
+}
+
