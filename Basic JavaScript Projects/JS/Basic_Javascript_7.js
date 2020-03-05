@@ -56,3 +56,8 @@ function Time_function() {
     document.getElementById("Time_of_day").innerHTML = Reply;
 }
 
+function slice_Method() {
+    var Sentence = "All rubber and no engine is not ideal.";
+    var Section = Sentence.slice(27,33);
+    document.getElementById("Slice").innerHTML = Section;
+}
