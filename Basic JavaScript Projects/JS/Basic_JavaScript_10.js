@@ -78,6 +78,6 @@ var word = "";
 var b;
 for (b = 0; b < 10; b++) {
     if (b === 5) {continue; }
-    word += "The number is " + b + "<br>";
+    word += "The number is " + b + "<br>"; // This displays the number 1-4 and skips 5 then displays until 10
 }
 document.getElementById("demo").innerHTML = word;
